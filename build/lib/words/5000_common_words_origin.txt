@@ -1,5 +1,0 @@
-THe list of 5000 words used for generating memorable passwords are sourced from:
-
-https://www.wordfrequency.info
-
-
