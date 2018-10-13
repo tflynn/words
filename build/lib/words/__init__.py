@@ -6,12 +6,12 @@ from os import path
 import json
 
 from standard_logger import get_logger
-logger = get_logger("words")
+DEFAULT_LOGGER = get_logger("words")
 
 BASEDIR = path.dirname(__file__)
 
 
-def load_data(dataset='5000words'):
+def load_data(dataset='5000words', logger=None):
     """
     Load data from specified data set
 
@@ -20,12 +20,12 @@ def load_data(dataset='5000words'):
     :rtype: dict
     """
     if dataset == '5000words':
-        return load_data_5000_words()
+        return load_data_5000_words(logger=logger)
     else:
         return {}
 
 
-def load_data_5000_words():
+def load_data_5000_words(logger=None):
     """
     Load data for '5000 common words' dataset'
 
@@ -33,6 +33,7 @@ def load_data_5000_words():
     :rtype: dict
     """
     try:
+        logger = logger || DEFAULT_LOGGER
         json_data_file_name = "5000_common_words.json"
         json_data_file_path = path.normpath(
             path.join(BASEDIR, json_data_file_name))

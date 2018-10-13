@@ -12,7 +12,7 @@
     <session id="-1697360058">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -49,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/words/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -226,7 +226,7 @@
     <entry file="file://$PROJECT_DIR$/words/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
