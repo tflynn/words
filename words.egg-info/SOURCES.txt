@@ -1,0 +1,11 @@
+README.md
+setup.py
+words/5000_common_words.json
+words/5000_common_words_origin.txt
+words/__init__.py
+words.egg-info/PKG-INFO
+words.egg-info/SOURCES.txt
+words.egg-info/dependency_links.txt
+words.egg-info/not-zip-safe
+words.egg-info/requires.txt
+words.egg-info/top_level.txt
