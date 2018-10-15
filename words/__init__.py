@@ -6,7 +6,6 @@ from os import path
 import json
 
 from standard_logger import get_logger
-DEFAULT_LOGGER = get_logger("words")
 
 BASEDIR = path.dirname(__file__)
 
@@ -33,7 +32,7 @@ def load_data_5000_words(logger=None):
     :rtype: dict
     """
     try:
-        logger = logger || DEFAULT_LOGGER
+        logger = logger if logger else get_logger("words")
         json_data_file_name = "5000_common_words.json"
         json_data_file_path = path.normpath(
             path.join(BASEDIR, json_data_file_name))
